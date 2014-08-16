@@ -166,7 +166,7 @@ public class GameGUI extends JFrame implements ActionListener, Runnable, MouseLi
         Meldings = new JButton[handSize]; 
 		for(int i=0; i<handSize; i++) {
 			//user the userHand User object to properly assign card values
-			Icon icon = new ImageIcon("Main game/src/resources/blank_card.png");
+			Icon icon = new ImageIcon("src/resources/blank_card.png");
 			Meldings[i] = new JButton("",icon);
 	
 			Meldings[i].setBackground(Color.WHITE);	
@@ -200,7 +200,7 @@ public class GameGUI extends JFrame implements ActionListener, Runnable, MouseLi
         Hand = new JButton[handSize]; 
 		for(int i=0; i<handSize; i++) {
 			//user the userHand User object to properly assign card values
-			Icon icon = new ImageIcon("Main game/src/resources/blank_card.png");
+			Icon icon = new ImageIcon("src/resources/blank_card.png");
 			Hand[i] = new JButton("",icon);
 	
 			Hand[i].setBackground(Color.WHITE);	
@@ -230,11 +230,11 @@ public class GameGUI extends JFrame implements ActionListener, Runnable, MouseLi
         centerLayout = new JPanel(new GridBagLayout()); //layout for deck and discard pile
 		
       	//sets up deck JButton
-		Icon icon = new ImageIcon("Main game/src/resources/back_cover.png");
+		Icon icon = new ImageIcon("src/resources/back_cover.png");
 		Deck = new JButton(icon);
 		Deck.setPreferredSize(new Dimension(50,75));
 		
-		Icon iconB = new ImageIcon("Main game/src/resources/blank_card.png");
+		Icon iconB = new ImageIcon("src/resources/blank_card.png");
 		DiscardPile = new JButton(convertString(d),iconB);
 	
 		DiscardPile.setBackground(Color.WHITE); 
