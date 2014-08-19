@@ -1,0 +1,18 @@
+package Types_of_Ducks;
+
+import BaseClasses.Duck;
+
+public class MallardDuck extends Duck{
+	
+	public MallardDuck(){
+		quackBehavior = new Quack();
+		
+	}
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package Interfaces;
+
+public interface Observer {
+	public boolean updateInfo(int option, String msg, String to, String user);
+}

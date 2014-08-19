@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Interfaces.FlyBehavior"/>
+<fullyQualifiedTypeName name="Interfaces.QuackBehavior"/>
+<fullyQualifiedTypeName name="BaseClasses.Quack"/>
+<fullyQualifiedTypeName name="BaseClasses.FlyWithWings"/>
+<fullyQualifiedTypeName name="BaseClasses.Duck"/>
+<fullyQualifiedTypeName name="Types_of_Ducks.MallardDuck"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="Interfaces.MessageParser"/>
+<fullyQualifiedTypeName name="Interfaces.Observer"/>
+</qualifiedTypeNameHistroy>
