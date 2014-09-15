@@ -1,6 +1,0 @@
-package Interfaces;
-
-public interface Subject {
-	public void addOnlineUsers(Client newClient);
-	publiv void
-}

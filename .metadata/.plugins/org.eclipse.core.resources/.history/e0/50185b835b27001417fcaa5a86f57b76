@@ -1,5 +1,0 @@
-package Interfaces;
-
-public interface Observer {
-	public void updateInfo(int option, String msg);
-}
